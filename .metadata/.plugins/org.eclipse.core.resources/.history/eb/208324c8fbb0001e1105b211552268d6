@@ -1,0 +1,10 @@
+package hung.jdbc;
+
+public class TestQuery {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

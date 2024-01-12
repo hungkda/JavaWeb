@@ -1,0 +1,5 @@
+package hung.jdbc;
+
+public class ConnectionUtils {
+
+}

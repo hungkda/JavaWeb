@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    list-style: none;
+}   
+
+.positionAbsolute {
+    position: absolute;
+}
+
+.positionReletive {
+    position: relative;
+}
+
+/* Thanh menu */
+#navbar-Menu {
+    display: flex;
+}
+
+#navbar-Menu a {
+    color: #000;
+    margin-right: 2.7rem;
+    font-size: 0.65em;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+}
+
+#navbar-Menu a:hover {
+    color: #aabc44;
+}
+
+#navbar-Logo {
+    margin-right: 13rem
+}
+
+#navbarNavAltMarkup {
+    margin-left: -4rem;
+}
+
+.intro {
+    background-image: url(/img/trangchu/bgSanpham.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+.img-01 {
+    background-image: url(/img/trangchu/background2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 34rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    top: -6rem;
+}
+
+.content-01 h4 {
+    padding-top: 15%;
+    padding-left: 44%;
+}
+
+.content-02 p {
+    padding-top: 10%em;
+    padding-left: 87%;
+    color: #aabc44;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.content-03 {
+    padding-top: 6rem;
+}
+
+.content-03 p {
+    padding-top: 7rem;
+    margin-left: 20%;
+    padding-right: 5%;
+    font-size: 1rem;
+    width: 31rem;
+    text-align: justify;
+}
+
+.content-03 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    border: 0px solid;
+    background-color: #aabc44;
+    height: 2rem;
+    width: 7.5rem;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.box a {
+
+    line-height: 2rem;
+    font-size: 0.7rem;
+    color: #000;
+}
+
+.img-02 {
+    background-image: url(/img/trangchu/nghe-nhan-tra-dao.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 39.8rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    top: -6rem;
+}
+
+.content2-01 {
+    padding-bottom: 2%;
+    padding-left: 35%;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 17%;
+}
+
+.main-avatar {
+    margin-right: -3%;
+}
+
+.main-avatar img {
+    height: 6.5rem
+}
+
+.name {
+    font-size: 0.59rem;
+    font-weight: 3000;
+    text-align: center;
+    width: 6.5rem;
+}
+
+.content-name {
+    font-size: 0.5rem;
+    width: 6.5rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+
+.img-03 {
+    background-image: url(/img/trangchu/mua-ngay.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 20rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: -39%;
+    top: -6rem;
+}
+
+.buy-product {
+    padding-top: 1%;
+    padding-left: 22%;
+}
+
+.content3-01 {
+    padding-top: 4%;
+    padding-left: 44%;
+}
+
+#register {
+    width: 55%;
+    margin-right: 1%;
+    border: 2px solid #aabc44;
+}
+
+.sub-button {
+    width: 7rem;
+    background-color: #aabc44;
+    border: 2px solid #aabc44;
+}
+
+.sub-button:hover {
+    color: white;
+}
+
+.img-04 {
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+    top: -22rem;
+}
+
+/* footer */
+.row {
+    float: left;
+    margin-top: -11rem;
+}
+
+.background-img {
+    background-image: url(/img/trangchu/fotter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px;
+    width: 57rem;
+    margin-left: 2.75rem;
+    margin-bottom: -6rem;
+    height: 8rem;
+    z-index: 100000;
+}
+
+.boxfooter1 {
+    float: left;
+    margin-left: 10rem;
+}
+
+.boxfooter1 img {
+    width: 7rem;
+    margin-bottom: 0.5rem;
+}
+
+.information1 {
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+    margin-bottom: 0, 6rem;
+}
+
+.boxfooter2 {
+    float: left;
+    margin-left: 9rem;
+}
+
+.boxfooter2 h6 {
+    font-size: 0.6rem;
+    padding-top: 0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.information2 {
+    margin-bottom: -0.6rem;
+}
+
+.information2 a {
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.information2 a:hover {
+    color: #aabc44;
+    text-decoration-line: none;
+}
+
+.boxfooter3 {
+    float: left;
+    margin-left: 9rem;
+}
+
+.boxfooter3 h6 {
+    font-size: 0.6rem;
+    padding-top: 0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.boxfooter3 img {
+    width: 5rem;
+}
+
+.information3 {
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+/* Slide */
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+
+/* Định dạng nội dung Caption */
+.text-01 {
+    color: black;
+    padding-bottom: 26%;
+    padding-right: 33%;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.text-01 h6 {
+    font-size: 1.3rem;
+}
+
+.text-02 {
+    border: 1px;
+    color: black;
+    padding-bottom: 8rem;
+    margin-left: 11rem;
+    position: absolute;
+    bottom: 8px;
+    width: 18rem;
+    text-align: justify;
+    font-family: "SVN-Athena_0";
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.text-03 {
+    border: 2px solid #aabc44;
+    background-color: #aabc44;
+    margin-top: -8rem;
+    margin-left: 11rem;
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    font-family: "SVN-Athena_0";
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-03 a {
+    color: black;
+}
+
+.text-03 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+
+/* khi được hover, active đổi màu nền */
+.active01,
+.dot:hover {
+    background-color: #aabc44;
+}
+
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@font-face {
+    font-family: "SVN-Athena_0";
+    src: url(/fonts/SVN-Athena_0.ttf);
+}
+
+/* Slick */
+.responsive img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.responsive {
+    padding-right: 12%;
+    padding-top: 1%;
+    margin-right: 0rem;
+    margin-left: 17%;
+}
+
+.responsive span {
+    font-size: 0.7rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+    padding-left: 1.6rem;
+}
+
+.content-000 {
+    padding-left: 39%;
+    padding-top: 11%;
+}
+
+.content-000 img {
+    width: 4rem;
+}
+
+.lasen img {
+    width: 7rem;
+    margin-left: 2rem;
+    margin-top: 6.5rem;
+}
+
+.latra img {
+    margin-left: 1200%;
+    margin-top: -208%;
+    width: 4rem;
+}
