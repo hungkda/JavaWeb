@@ -10,7 +10,7 @@ public class ConnectionUtils {
         String userName = "sa";
         String password = "sa123";
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        String connectionURL = "jdbc:sqlserver://" + hostName + ":1433;instance=" + sqlInstanceName + ";databaseName="+dbName + ";encrypt=true;trustServerCertificate=true";
+        String connectionURL = "jdbc:sqlserver://" + hostName + ":1433;instance=" + sqlInstanceName + ";databaseName=" +dbName + ";encrypt=true;trustServerCertificate=true";
         // Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
          //DriverManager.registerDriver(new com.microsoft.sqlserver.jdbc.SQLServerDriver());  
         Connection conn = DriverManager.getConnection(connectionURL, userName, password);

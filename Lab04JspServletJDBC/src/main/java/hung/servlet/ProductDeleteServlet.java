@@ -8,9 +8,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Connection;
-import java.util.List;
 
-import hung.beans.Product;
 import hung.conn.ConnectionUtils;
 import hung.utils.ProductUtils;
 

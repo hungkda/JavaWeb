@@ -72,7 +72,7 @@ public class ListCustomerServlet extends HttpServlet {
 		String errorString = null;
 		List<Customer> list = null;
 		RequestDispatcher dispatcher = request.getServletContext().getRequestDispatcher("/WEB-INF/views/listCustomer.jsp");
-		String keyword = (String) request.getParameter("keyword");
+		String keyword = (String)request.getParameter("keyword");
 		if(keyword == null || keyword == "") {
 			errorString="Bạn chưa chọn customer cần tìm";
 			request.setAttribute("errorString", errorString);
