@@ -273,3 +273,4 @@
 2024-02-26 08:35:57,009 [main] INFO  o.h.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
 2024-02-26 08:54:46,194 [main] INFO  org.hibernate.cfg.Configuration - configuring from XML document
 2024-02-26 08:54:46,194 [main] INFO  org.hibernate.cfg.Configuration - Configured SessionFactory: null
+2024-02-26 09:47:01,846 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
