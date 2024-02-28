@@ -46,4 +46,10 @@
     <fullyQualifiedTypeName name="org.hibernate.boot.Metadata"/>
     <fullyQualifiedTypeName name="hung.entity.Product"/>
     <fullyQualifiedTypeName name="hung.dao.ProductDAOImpl"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="hung.dao.EmployeeDAOImpl"/>
+    <fullyQualifiedTypeName name="hung.entity.Employee"/>
 </qualifiedTypeNameHistroy>
