@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Mar 6, 2024, 9:50:29 AM by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="NguyenManhHung_2110900052" name="hung.entity.Timekeeper" optimistic-lock="none" schema="dbo" table="TIMEKEEPER">
+        <id name="timekeeperId" type="string">
+            <column length="36" name="Timekeeper_Id"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="hung.entity.Employee" fetch="select" name="employee">
+            <column name="EMP_ID" not-null="true" scale="0"/>
+        </many-to-one>
+        <property name="dateTime" type="timestamp">
+            <column length="23" name="Date_Time" not-null="true"/>
+        </property>
+        <property name="inOut" type="char">
+            <column length="1" name="In_Out" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

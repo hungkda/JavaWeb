@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="hung.beans.Product"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="hung.conn.ConnectionUtils"/>
     <fullyQualifiedTypeName name="hung.utils.ProductUtils"/>
     <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.Basic"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
@@ -30,7 +26,6 @@
     <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
     <fullyQualifiedTypeName name="nguyenmanhhung.conn.NguyenManhHung_2110900052_TestConnection"/>
     <fullyQualifiedTypeName name="nguyenmanhhung.conn.NguyenManhHung_2110900052_ConnectionUtils"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="nguyenmanhhung.beans.NguyenManhHung_2110900052_Product"/>
     <fullyQualifiedTypeName name="nguyenmanhhung.conn.NguyenManhHung_Connection"/>
     <fullyQualifiedTypeName name="nguyenmanhhung.utils.NguyenManhHung_ProductUtils"/>
@@ -49,7 +44,20 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="hung.entity.SalaryGrade"/>
+    <fullyQualifiedTypeName name="hung.entity.Timekeeper"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="hung.dao.DepartmentDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="hung.entity.Department"/>
+    <fullyQualifiedTypeName name="hung.dao.DepartmentDAOImlp"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.UniqueConstraint"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
-    <fullyQualifiedTypeName name="hung.dao.EmployeeDAOImpl"/>
     <fullyQualifiedTypeName name="hung.entity.Employee"/>
+    <fullyQualifiedTypeName name="hung.dao.EmployeeDAOImpl"/>
 </qualifiedTypeNameHistroy>

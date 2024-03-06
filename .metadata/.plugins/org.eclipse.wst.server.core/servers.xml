@@ -6,7 +6,7 @@
   <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.1 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.1 Server at localhost (2)" name="Tomcat v10.1 Server at localhost (2)" runtime-id="Apache Tomcat v10.1 - Lab04" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="1">
     <list key="modules" value0="Lab04_Ex::org.eclipse.jst.jee.server:Lab04_Ex::jst.web::6.0"/>
   </server>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.1 Server at localhost (3)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.1 Server at localhost (3)" name="Tomcat v10.1 Server at localhost (3)" runtime-id="Apache Tomcat v10.1 - Lab04" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="1">
-    <list key="modules" value0="Lab04JspServletJDBC::org.eclipse.jst.jee.server:Lab04JspServletJDBC::jst.web::6.0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.1 Server at localhost (3)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.1 Server at localhost (3)" name="Tomcat v10.1 Server at localhost (3)" runtime-id="Apache Tomcat v10.1 - Lab04" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="Lab04JspServletJDBC::org.eclipse.jst.jee.server:Lab04JspServletJDBC::jst.web::6.0" value1="OnTap::org.eclipse.jst.jee.server:OnTap::jst.web::6.0" value2="On_Tap::org.eclipse.jst.jee.server:On_Tap::jst.web::6.0"/>
   </server>
 </servers>

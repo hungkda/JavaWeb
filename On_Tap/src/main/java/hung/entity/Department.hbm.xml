@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Mar 6, 2024, 9:50:29 AM by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="NguyenManhHung_2110900052" name="hung.entity.Department" optimistic-lock="none" schema="dbo" table="DEPARTMENT">
+        <id name="deptId" type="int">
+            <column name="DEPT_ID"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="deptName" type="string">
+            <column name="DEPT_NAME" not-null="true"/>
+        </property>
+        <property name="deptNo" type="string">
+            <column length="20" name="DEPT_NO" not-null="true" unique="true"/>
+        </property>
+        <property name="location" type="string">
+            <column name="LOCATION"/>
+        </property>
+        <set fetch="select" inverse="true" lazy="true" name="employees" table="EMPLOYEE">
+            <key>
+                <column name="DEPT_ID" not-null="true"/>
+            </key>
+            <one-to-many class="hung.entity.Employee"/>
+        </set>
+    </class>
+</hibernate-mapping>

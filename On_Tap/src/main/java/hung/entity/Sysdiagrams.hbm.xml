@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Mar 6, 2024, 9:50:29 AM by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="NguyenManhHung_2110900052" name="hung.entity.Sysdiagrams" schema="dbo" table="sysdiagrams">
+        <id name="diagramId" type="java.lang.Integer">
+            <column name="diagram_id"/>
+            <generator class="identity"/>
+        </id>
+        <version name="version" type="java.lang.Integer">
+            <column name="version"/>
+        </version>
+        <property name="name" type="serializable">
+            <column name="name" not-null="true"/>
+        </property>
+        <property name="principalId" type="int">
+            <column name="principal_id" not-null="true"/>
+        </property>
+        <property name="definition" type="binary">
+            <column name="definition"/>
+        </property>
+    </class>
+</hibernate-mapping>
