@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Connection;
 
-import hung.dao.DepartmentDAOImlp;
+import hung.dao.DepartmentDAOImpl;
 import hung.entity.Department;
 
 @WebServlet("/DepartmentCreate")
@@ -67,7 +67,7 @@ public class DepartmentCreateServlet extends HttpServlet {
 		}
 		
 		try {
-			boolean flag = new DepartmentDAOImlp().insertDepartment(department);
+			boolean flag = new DepartmentDAOImpl().insertDepartment(department);
 			if(flag == true) {
 				response.sendRedirect(request.getContextPath() + "/DepartmentList");
 			}

@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Connection;
 
-import hung.dao.DepartmentDAOImlp;
+import hung.dao.DepartmentDAOImpl;
 import hung.entity.Department;
 
 
@@ -54,7 +54,7 @@ public class DepartmentEditServlet extends HttpServlet {
 			errorString=e.getMessage();
 		}
 		try {
-			department = new DepartmentDAOImlp().getDepartmentById(deptId);
+			department = new DepartmentDAOImpl().getDepartmentById(deptId);
 			if(department==null) {
 				errorString="Không tìm thấy phòng ban nào có mã" + deptIdStr;
 			}
@@ -108,7 +108,7 @@ public class DepartmentEditServlet extends HttpServlet {
 		}
 		Connection conn = null;
 		try {
-			boolean flag = new DepartmentDAOImlp().updateDepartment(department);
+			boolean flag = new DepartmentDAOImpl().updateDepartment(department);
 			if(flag == true) {
 				response.sendRedirect(request.getContextPath() + "/DepartmentList");
 			}

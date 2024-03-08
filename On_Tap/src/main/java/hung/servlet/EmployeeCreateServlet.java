@@ -11,7 +11,7 @@ import java.math.BigInteger;
 import java.util.Calendar;
 import java.util.List;
 
-import hung.dao.DepartmentDAOImlp;
+import hung.dao.DepartmentDAOImpl;
 import hung.dao.EmployeeDAOImpl;
 import hung.entity.Department;
 import hung.entity.Employee;
@@ -36,7 +36,7 @@ public class EmployeeCreateServlet extends HttpServlet {
 		List<Department> listD = null;
 		List<Employee> listE = null;
 			
-		listD = new DepartmentDAOImlp().getAllDepartment();
+		listD = new DepartmentDAOImpl().getAllDepartment();
 		listE = new EmployeeDAOImpl().getAllEmployee();
 		// Store info in request attribute, before forward to views
 		request.setAttribute("errorString", errorString);
@@ -75,7 +75,7 @@ public class EmployeeCreateServlet extends HttpServlet {
 			errorString=e.getMessage();
 		}
 		
-		Department dept = new DepartmentDAOImlp().getDepartmentById(department);
+		Department dept = new DepartmentDAOImpl().getDepartmentById(department);
 		Employee emp = new EmployeeDAOImpl().getEmployeeById(employee);
 		Calendar cal = Calendar.getInstance();
 		Employee newEmployee = new Employee(empId, dept, emp, empName, empNo, cal.getTime(), job, salary);

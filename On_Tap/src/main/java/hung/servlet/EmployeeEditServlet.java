@@ -11,7 +11,7 @@ import java.math.BigInteger;
 import java.util.Calendar;
 import java.util.List;
 
-import hung.dao.DepartmentDAOImlp;
+import hung.dao.DepartmentDAOImpl;
 import hung.dao.EmployeeDAOImpl;
 import hung.entity.Department;
 import hung.entity.Employee;
@@ -49,7 +49,7 @@ public class EmployeeEditServlet extends HttpServlet {
 		// khai báo
 		Employee employee = null;
 		errorString = null;
-		List<Department> listD = new DepartmentDAOImlp().getAllDepartment();
+		List<Department> listD = new DepartmentDAOImpl().getAllDepartment();
 		List<Employee> listE = new EmployeeDAOImpl().getAllEmployee();
 		
 		BigInteger empId = new BigInteger("0");
@@ -108,7 +108,7 @@ public class EmployeeEditServlet extends HttpServlet {
 			errorString=e.getMessage();
 		}
 		
-		Department dept = new DepartmentDAOImlp().getDepartmentById(department);
+		Department dept = new DepartmentDAOImpl().getDepartmentById(department);
 		Employee emp = new EmployeeDAOImpl().getEmployeeById(employee);
 		Calendar cal = Calendar.getInstance();
 		Employee newEmployee = new Employee(empId, dept, emp, empName, empNo, cal.getTime(), job, salary);

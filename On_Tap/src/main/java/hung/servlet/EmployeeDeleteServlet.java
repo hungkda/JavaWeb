@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.math.BigInteger;
 
-import hung.dao.DepartmentDAOImlp;
+import hung.dao.DepartmentDAOImpl;
 import hung.dao.EmployeeDAOImpl;
 
 /**

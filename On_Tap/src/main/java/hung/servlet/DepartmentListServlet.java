@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-import hung.dao.DepartmentDAOImlp;
+import hung.dao.DepartmentDAOImpl;
 import hung.entity.Department;
 import hung.entity.Employee;
 
@@ -36,7 +36,7 @@ public class DepartmentListServlet extends HttpServlet {
 		String errorString = null;
 		List<Department> list = null;
 			
-		list = new DepartmentDAOImlp().getAllDepartment();
+		list = new DepartmentDAOImpl().getAllDepartment();
 		// Store info in request attribute, before forward to views
 		request.setAttribute("errorString", errorString);
 		request.setAttribute("departmentList", list);

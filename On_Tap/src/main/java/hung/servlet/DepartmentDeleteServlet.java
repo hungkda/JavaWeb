@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Connection;
 
-import hung.dao.DepartmentDAOImlp;
+import hung.dao.DepartmentDAOImpl;
 
 @WebServlet("/DepartmentDelete")
 public class DepartmentDeleteServlet extends HttpServlet {
@@ -43,7 +43,7 @@ public class DepartmentDeleteServlet extends HttpServlet {
 			dispatcher.forward(request, response);
 		}else {
 			
-			boolean flag = new DepartmentDAOImlp().deleteDepartment(deptId);
+			boolean flag = new DepartmentDAOImpl().deleteDepartment(deptId);
 			if(flag == true) {
 				response.sendRedirect(request.getContextPath() + "/DepartmentList");
 			}
